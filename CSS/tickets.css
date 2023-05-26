@@ -1,0 +1,63 @@
+@media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+      }
+  /* cuadros de porcentaje */
+      .square {
+        width: 220px;
+        height: 200px;
+        background-color: #ffffff;
+        margin: 20px;
+        text-align: center;
+      }
+  
+      .square h1 {
+        font-size: 25px;
+        margin-top: 40px;
+      }
+  
+      #cuad1 {
+        border: 1px solid blue;
+      }
+
+      #cuad2 {
+        border: 1px solid rgb(0, 153, 0);
+      }
+
+      #cuad3 {
+        border: 1px solid rgb(221, 181, 0);
+      }
+
+      #nota {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.658);
+      }
+/* title de venta */
+      .mid-tit
+      {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+/* form */
+      #total {
+        font-size: 20px;
+        padding: 25px;
+        border: 1px solid rgb(0, 145, 48);
+        background-color: rgba(105, 208, 255, 0.418);
+      }
+
+      .btn-success.btn-block {
+        font-size: 15px;
+        background-color: rgb(150, 207, 44);
+      }
+
+      .btn-success.btn-block:hover {
+        color: black;
+        border: 1px solid rgb(197, 0, 0);
+        font-size: 15px;
+        background-color: rgba(150, 207, 44, 0.623);
+      }
+}
+
